@@ -135,12 +135,8 @@ window.onload = function () {
     });
     if (window_width <= 1024) {
         const swiper5 = new Swiper(".card7-3d-swiper", {
-
             loop: true,
-
             grabCursor: true,
-
-
             pagination: {
                 el: '.swiper-pagination6',
             },
@@ -156,6 +152,8 @@ window.onload = function () {
         const swiper5 = new Swiper(".card7-3d-swiper", {
             centeredSlides: true,
             loop: true,
+            simulateTouch:false,
+            allowTouchMove:false,
             slidesPerView: "2",
             grabCursor: true,
             effect: "coverflow",

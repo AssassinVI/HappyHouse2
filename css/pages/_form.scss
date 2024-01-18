@@ -534,23 +534,22 @@
                     letter-spacing: 0.1em;
                     margin: 2vw 0vw;
 
-                    @media all and (max-width:1024px) {
-                        font-size: 3vw;
-                        margin: 5vw 0vw;
-                    }
-
-                    #checkbox {
-                        transform: scale(1.5) translateY(-1px);
-                        margin-right: 0.3vw;
-
-                        @media all and (max-width:1024px) {
-                            transform: scale(2) translateY(-2px);
+                    &.pribacyCheck_div {
+                        label{
+                            display: flex;
+                            align-items: center;
+                        }
+                        #ca_privacy {
+                            width: 0.9vw;
+                            height: 0.9vw;
+                            margin-right: 0.3vw;
                         }
 
-                        @media all and (max-width:500px) {
-                            transform: scale(1) translateY(2px);
+                        a{
+                            color: #ce4805;
                         }
                     }
+                    
                 }
 
                 .send-btn-box {
